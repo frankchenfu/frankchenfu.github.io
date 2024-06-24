@@ -13,6 +13,12 @@ redirect_from:
 
 <head>
   <style>
+    .enroll-grade-box {
+      display: inline-block;
+      border: 2px solid #ccc; /* 边框颜色和粗细 */
+      border-radius: 10px; /* 圆角半径 */
+      padding: 10px; /* 内边距 */
+    }
     /* Styling for each grade icon */
     .grade-icon {
       display: inline-block;
@@ -23,7 +29,7 @@ redirect_from:
       text-align: center;
       color: white;
       font-weight: bold;
-      margin-left: 100px; /* Adjust spacing between grade icon and title */
+      margin-left: 10px; /* Adjust spacing between grade icon and title */
     }
     .grades {
       display: inline-block; /* Ensure it stays on the same line */
@@ -47,8 +53,11 @@ redirect_from:
 </head>
 
 <body>
-  <p>Enrolled in 2022 Fall.<span class="right-content">
-    <span class="grades"><span class="grade-icon a">A</span></span>
-  </span></p>
-  
+  <div class="enroll-grade-box">
+    <h3>CSC1001 Introduction to Computer Science: Programming Methodology</h3>
+    <p>Enrolled in 2022 Fall Term | Credits: 3.0 | Grade:
+    <span class="right-content">
+      <span class="grades"><span class="grade-icon a">A</span></span>
+    </span></p>
+  </div>
 </body>
