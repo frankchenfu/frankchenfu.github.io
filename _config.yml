@@ -203,9 +203,6 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  courseworks:
-    output: true
-    permalink: /:collection/:path/
 
 
 # Defaults
@@ -228,6 +225,15 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _publications
   - scope:
       path: ""
@@ -237,15 +243,23 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # courseworks
+  # _portfolio
   - scope:
       path: ""
-      type: courseworks
+      type: portfolio
     values:
       layout: single
       author_profile: true
-      share: false
-      comments: false
+      share: true
+      comment: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
 
 
 # Sass/SCSS
@@ -258,7 +272,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Asia/Hong_Kong # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
