@@ -13,6 +13,23 @@ redirect_from:
 
 <head>
   <style>
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      /* 其他样式，如背景颜色、边框等根据需要添加 */
+    }
+
+    .button:hover {
+      background-color: #4CAF50; /* 鼠标悬停时的背景色 */
+      color: white; /* 鼠标悬停时的文字颜色 */
+    }
     .enroll-grade-box {
       display: inline-block;
       border: 2px solid #ccc; /* 边框颜色和粗细 */
@@ -25,7 +42,7 @@ redirect_from:
       width: 30px; /* Adjust size as needed */
       height: 30px; /* Adjust size as needed */
       border-radius: 50%;
-      line-height: 25px; /* Adjust line-height to center text vertically */
+      line-height: 20px; /* Adjust line-height to center text vertically */
       text-align: center;
       color: white;
       font-weight: bold;
@@ -65,16 +82,17 @@ redirect_from:
       <span class="right-content">
         <span class="grades"><span class="grade-icon a">A</span></span>
       </span></p>
-      <p>Learning Outcomes: Programming with Python, basics of data structures, basics of algorithm designing.
+      <p>Learning Outcomes: Programming with Python, basics of data structures, basics of algorithm designing.</p>
       <p>Course Assignments: <a href="https://github.com/frankchenfu/CUHKSZ_CSC1001">https://github.com/frankchenfu/CUHKSZ_CSC1001</a></p>
     </div>
+
     <div class="enroll-grade-box me">
       <h3>CSC1002 Introduction to Computer Science: Programming Methodology</h3>
       <p>Enrolled in 2022 Fall Spring | Credits: 1.0 | Grade:
       <span class="right-content">
         <span class="grades"><span class="grade-icon a">A</span></span>
       </span></p>
-      <p>Learning Outcomes: Better Python programming with PEP8 standards, hands-on experience of large program development and debugging.
+      <p>Learning Outcomes: Better Python programming with PEP8 standards, hands-on experience of large program development and debugging.</p>
     </div>
   </div>
   <script>
