@@ -12,6 +12,43 @@
   {% assign title = post.title %}
 {% endif %}
 
+<head>
+  <style>
+    /* Styling for each grade icon */
+    .grade-icon {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      line-height: 50px;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      margin: 5px;
+    }
+    /* Different background colors for each grade */
+    .grade-icon.a { background-color: #4CAF50; } /* Green */
+    .grade-icon.a-minus { background-color: #8BC34A; } /* Light Green */
+    .grade-icon.b-plus { background-color: #CDDC39; } /* Lime */
+    .grade-icon.b { background-color: #FFEB3B; } /* Yellow */
+    .grade-icon.b-minus { background-color: #FFC107; } /* Amber */
+    .grade-icon.c-plus { background-color: #FF9800; } /* Orange */
+    .grade-icon.c { background-color: #FF5722; } /* Deep Orange */
+    .grade-icon.c-minus { background-color: #F44336; } /* Red */
+    .grade-icon.d { background-color: #E91E63; } /* Pink */
+    .grade-icon.f { background-color: #9C27B0; } /* Purple */
+    /* Container for the grades, fixed to the right side of the page */
+    .grades {
+      position: fixed;
+      right: 10px;
+      top: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  </style>
+</head>
+
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
@@ -76,38 +113,3 @@
 
   </article>
 </div>
-
-<style>
-  /* Styling for each grade icon */
-  .grade-icon {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    line-height: 50px;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    margin: 5px;
-  }
-  /* Different background colors for each grade */
-  .grade-icon.a { background-color: #4CAF50; } /* Green */
-  .grade-icon.a-minus { background-color: #8BC34A; } /* Light Green */
-  .grade-icon.b-plus { background-color: #CDDC39; } /* Lime */
-  .grade-icon.b { background-color: #FFEB3B; } /* Yellow */
-  .grade-icon.b-minus { background-color: #FFC107; } /* Amber */
-  .grade-icon.c-plus { background-color: #FF9800; } /* Orange */
-  .grade-icon.c { background-color: #FF5722; } /* Deep Orange */
-  .grade-icon.c-minus { background-color: #F44336; } /* Red */
-  .grade-icon.d { background-color: #E91E63; } /* Pink */
-  .grade-icon.f { background-color: #9C27B0; } /* Purple */
-  /* Container for the grades, fixed to the right side of the page */
-  .grades {
-    position: fixed;
-    right: 10px;
-    top: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-</style>

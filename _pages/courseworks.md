@@ -11,8 +11,6 @@ redirect_from:
 
 {% include base_path %}
 
-Course work (update at 21:10)
-
-{% for post in site.courseworks reversed %}
+{% for post in site.courseworks %}
   {% include archive-single.html %}
 {% endfor %}
