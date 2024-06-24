@@ -203,7 +203,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-
+  courseworks:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
