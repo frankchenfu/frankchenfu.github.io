@@ -11,4 +11,6 @@ redirect_from:
 
 {% include base_path %}
 
-The course works are missing...
+{% for post in site.courseworks %}
+  {% include archive-single.html %}
+{% endfor %}
