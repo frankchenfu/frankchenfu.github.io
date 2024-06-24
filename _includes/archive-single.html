@@ -71,7 +71,14 @@
         {% elsif post.collection == 'publications' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.term %}
-          <p>Enrolled in {{ post.term | default: "unknown term"}}</p>
+          {% if post.grade %}
+            <span class="enrolled-term">{{ post.term | default: "unknown term"}}</span>
+            <div class="grades">
+              <div class="grade-icon {{ post.grade | downcase | replace: ' ', '-' }}">{{ post.grade }}</div>
+            </div>
+          {% else %}
+            <p>Enrolled in {{ post.term | default: "unknown term"}}</p>
+          {% endif %}
         {% elsif post.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
@@ -96,11 +103,7 @@
       <p>Download <a href="{{ post.slidesurl }}">Download Slides</a></p></p>
     {% endif %}
 
-    {% if post.grade %}
-      <div class="grades">
-        <div class="grade-icon {{ post.grade | downcase | replace: ' ', '-' }}">{{ post.grade }}</div>
-      </div>
-    {% endif %}
+    
 
   </article>
 </div>
