@@ -26,6 +26,10 @@
       font-weight: bold;
       margin-left: 100px; /* Adjust spacing between grade icon and title */
     }
+    .enrolled-term {
+      display: inline-block; /* Ensure it stays on the same line */
+      margin-right: 10px; /* Adjust spacing between enrolled term and grade icon */
+    }
     /* Different background colors for each grade */
     .grade-icon.a { background-color: #4CAF50; } /* Green */
     .grade-icon.a-minus { background-color: #8BC34A; } /* Light Green */
@@ -72,10 +76,11 @@
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.term %}
           {% if post.grade %}
-            <span class="enrolled-term">{{ post.term | default: "unknown term"}}
+            <span class="enrolled-term">{{ post.term | default: "unknown term"}}</span>
             <div class="grades">
               <div class="grade-icon {{ post.grade | downcase | replace: ' ', '-' }}">{{ post.grade }}</div>
-            </div></span>
+            </div>
+            
           {% else %}
             <p>Enrolled in {{ post.term | default: "unknown term"}}</p>
           {% endif %}
