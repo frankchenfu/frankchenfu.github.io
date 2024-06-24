@@ -14,6 +14,7 @@ redirect_from:
 <head>
   <style>
     .button {
+      font-family: 'Comic Sans MS', sans-serif;
       display: inline-block;
       padding: 10px 20px;
       font-size: 16px;
@@ -26,7 +27,7 @@ redirect_from:
       /* 其他样式，如背景颜色、边框等根据需要添加 */
     }
     .button:hover {
-      background-color: #4CAF50; /* 鼠标悬停时的背景色 */
+      background-color: #57B6D0; /* 鼠标悬停时的背景色 */
       color: white; /* 鼠标悬停时的文字颜色 */
     }
     .enroll-grade-box {
@@ -34,9 +35,17 @@ redirect_from:
       width: 100%;
       border: 2px solid #ccc; /* 边框颜色和粗细 */
       border-radius: 10px; /* 圆角半径 */
-      padding: 5px; /* 内边距 */
+      margin: 10px 10px;
+      padding: 10px; /* 内边距 */
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       background-color: #f9f9f9;
+      font-size: 14px; /* Adjust font size */
+      line-height: 1.4; /* Adjust line height */
+    }
+    .enroll-grade-box h3 {
+      margin-top: 0;
+      font-size: 16px; /* Adjust font size for heading */
+      line-height: 1.2; /* Adjust line height for heading */
     }
     /* Styling for each grade icon */
     .grade-icon {
@@ -44,7 +53,7 @@ redirect_from:
       width: 25px; /* Adjust size as needed */
       height: 25px; /* Adjust size as needed */
       border-radius: 50%;
-      line-height: 25px; /* Adjust line-height to center text vertically */
+      line-height: 20px; /* Adjust line-height to center text vertically */
       text-align: center;
       color: white;
       font-weight: bold;
