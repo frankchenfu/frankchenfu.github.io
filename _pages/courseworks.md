@@ -25,7 +25,7 @@ redirect_from:
       width: 30px; /* Adjust size as needed */
       height: 30px; /* Adjust size as needed */
       border-radius: 50%;
-      line-height: 30px; /* Adjust line-height to center text vertically */
+      line-height: 25px; /* Adjust line-height to center text vertically */
       text-align: center;
       color: white;
       font-weight: bold;
@@ -53,11 +53,41 @@ redirect_from:
 </head>
 
 <body>
-  <div class="enroll-grade-box">
-    <h3>CSC1001 Introduction to Computer Science: Programming Methodology</h3>
-    <p>Enrolled in 2022 Fall Term | Credits: 3.0 | Grade:
-    <span class="right-content">
-      <span class="grades"><span class="grade-icon a">A</span></span>
-    </span></p>
+  <button class="filter-btn" onclick="filterBoxes('all')">Show All</button>
+  <button class="filter-btn" onclick="filterBoxes('mr')">Show Major Requires</button>
+  <button class="filter-btn" onclick="filterBoxes('me')">Show Major Electives</button>
+  <button class="filter-btn" onclick="filterBoxes('ge')">Show General Educations</button>
+  <button class="filter-btn" onclick="filterBoxes('fe')">Show Free Electives</button>
+  <div id="enroll-grade-container">
+    <div class="enroll-grade-box mr">
+      <h3>CSC1001 Introduction to Computer Science: Programming Methodology</h3>
+      <p>Enrolled in 2022 Fall Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A</span></span>
+      </span></p>
+      <p>Learning Outcomes: Programming with Python, basics of data structures, basics of algorithm designing.
+      <p>Course Assignments: <a href="https://github.com/frankchenfu/CUHKSZ_CSC1001">https://github.com/frankchenfu/CUHKSZ_CSC1001</a></p>
+    </div>
+    <div class="enroll-grade-box me">
+      <h3>CSC1002 Introduction to Computer Science: Programming Methodology</h3>
+      <p>Enrolled in 2022 Fall Spring | Credits: 1.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A</span></span>
+      </span></p>
+      <p>Learning Outcomes: Better Python programming with PEP8 standards, hands-on experience of large program development and debugging.
+    </div>
   </div>
+  <script>
+    function filterBoxes(tag) {
+      var boxes = document.querySelectorAll('.enroll-grade-box');
+
+      boxes.forEach(function(box) {
+        if (tag === 'all' || box.classList.contains(tag)) {
+          box.style.display = 'inline-block';
+        } else {
+          box.style.display = 'none';
+        }
+      });
+    }
+  </script>
 </body>
