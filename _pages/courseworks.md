@@ -25,9 +25,12 @@ redirect_from:
       font-weight: bold;
       margin-left: 100px; /* Adjust spacing between grade icon and title */
     }
-    .enrolled-term {
+    .grades {
       display: inline-block; /* Ensure it stays on the same line */
-      margin-right: 10px; /* Adjust spacing between enrolled term and grade icon */
+    }
+    .right-content {
+      display: inline-block; /* Ensure it stays on the same line */
+      vertical-align: middle; /* Align vertically */
     }
     /* Different background colors for each grade */
     .grade-icon.a { background-color: #4CAF50; } /* Green */
@@ -44,8 +47,8 @@ redirect_from:
 </head>
 
 <body>
-  <p>Enrolled in 2022 Fall.<div class="right-content">
-    <div class="grades"><div class="grade-icon a">A</div></div>
-  </div></p>
+  <p>Enrolled in 2022 Fall.<span class="right-content">
+    <span class="grades"><span class="grade-icon a">A</span></span>
+  </span></p>
   
 </body>
