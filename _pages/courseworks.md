@@ -25,24 +25,26 @@ redirect_from:
       transition: background-color 0.3s ease;
       /* 其他样式，如背景颜色、边框等根据需要添加 */
     }
-
     .button:hover {
       background-color: #4CAF50; /* 鼠标悬停时的背景色 */
       color: white; /* 鼠标悬停时的文字颜色 */
     }
     .enroll-grade-box {
-      display: inline-block;
+      display: block;
+      width: 100%;
       border: 2px solid #ccc; /* 边框颜色和粗细 */
       border-radius: 10px; /* 圆角半径 */
-      padding: 10px; /* 内边距 */
+      padding: 5px; /* 内边距 */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      background-color: #f9f9f9;
     }
     /* Styling for each grade icon */
     .grade-icon {
       display: inline-block;
-      width: 30px; /* Adjust size as needed */
-      height: 30px; /* Adjust size as needed */
+      width: 25px; /* Adjust size as needed */
+      height: 25px; /* Adjust size as needed */
       border-radius: 50%;
-      line-height: 20px; /* Adjust line-height to center text vertically */
+      line-height: 25px; /* Adjust line-height to center text vertically */
       text-align: center;
       color: white;
       font-weight: bold;
@@ -70,11 +72,12 @@ redirect_from:
 </head>
 
 <body>
-  <button class="filter-btn" onclick="filterBoxes('all')">Show All</button>
-  <button class="filter-btn" onclick="filterBoxes('mr')">Show Major Requires</button>
-  <button class="filter-btn" onclick="filterBoxes('me')">Show Major Electives</button>
-  <button class="filter-btn" onclick="filterBoxes('ge')">Show General Educations</button>
-  <button class="filter-btn" onclick="filterBoxes('fe')">Show Free Electives</button>
+  <button class="button" onclick="filterBoxes('all')">Show All</button>
+  <button class="button" onclick="filterBoxes('core')">Core Courses</button>
+  <button class="button" onclick="filterBoxes('mr')">Major Requires</button>
+  <button class="button" onclick="filterBoxes('me')">Major Electives</button>
+  <button class="button" onclick="filterBoxes('ge')">General Educations</button>
+  <button class="button" onclick="filterBoxes('fe')">Free Electives</button>
   <div id="enroll-grade-container">
     <div class="enroll-grade-box mr">
       <h3>CSC1001 Introduction to Computer Science: Programming Methodology</h3>
