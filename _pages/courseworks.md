@@ -12,31 +12,6 @@ redirect_from:
 {% include base_path %}
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      padding: 20px;
-    }
-    .left-content {
-      width: 60%;
-    }
-    .right-content {
-      width: 30%;
-      text-align: center;
-    }
-    .text-block {
-      margin-bottom: 10px;
-    }
-    .separator {
-      font-size: 20px;
-      color: #333;
-    }
-  </style>
   <style>
     /* Styling for each grade icon */
     .grade-icon {
@@ -69,11 +44,8 @@ redirect_from:
 </head>
 
 <body>
-  <div class="left-content">
-    Enrolled in 2022 Fall.
-  </div>
-  <div class="right-content">
+  <p>Enrolled in 2022 Fall.<div class="right-content">
     <div class="grades"><div class="grade-icon a">A</div></div>
-  </div>
-  <div class="separator">    </div>
+  </div></p>
+  
 </body>
