@@ -16,8 +16,8 @@ redirect_from:
     .button {
       font-family: 'Comic Sans MS', sans-serif;
       display: inline-block;
-      padding: 10px 20px;
-      font-size: 16px;
+      padding: 6px 12px;
+      font-size: 14px;
       font-weight: bold;
       text-align: center;
       text-decoration: none;
@@ -35,12 +35,12 @@ redirect_from:
       width: 100%;
       border: 2px solid #ccc; /* 边框颜色和粗细 */
       border-radius: 10px; /* 圆角半径 */
-      margin: 10px 10px;
+      margin: 10px 0;
       padding: 10px; /* 内边距 */
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       background-color: #f9f9f9;
       font-size: 14px; /* Adjust font size */
-      line-height: 1.4; /* Adjust line height */
+      line-height: 1.2; /* Adjust line height */
     }
     .enroll-grade-box h3 {
       margin-top: 0;
@@ -89,22 +89,22 @@ redirect_from:
   <button class="button" onclick="filterBoxes('fe')">Free Electives</button>
   <div id="enroll-grade-container">
     <div class="enroll-grade-box mr">
-      <h3>CSC1001 Introduction to Computer Science: Programming Methodology</h3>
-      <p>Enrolled in 2022 Fall Term | Credits: 3.0 | Grade:
+      <h3>CSC1001 - Introduction to Computer Science: Programming Methodology</h3>
+      <p><b>Enrolled in 2022 Fall Term | Credits: 3.0 | Grade:
       <span class="right-content">
         <span class="grades"><span class="grade-icon a">A</span></span>
-      </span></p>
-      <p>Learning Outcomes: Programming with Python, basics of data structures, basics of algorithm designing.</p>
-      <p>Course Assignments: <a href="https://github.com/frankchenfu/CUHKSZ_CSC1001">https://github.com/frankchenfu/CUHKSZ_CSC1001</a></p>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Programming with Python, basics of data structures, basics of algorithm designing.</p>
+      <p><b>Course Assignments</b>: <a href="https://github.com/frankchenfu/CUHKSZ_CSC1001">https://github.com/frankchenfu/CUHKSZ_CSC1001</a></p>
     </div>
 
     <div class="enroll-grade-box me">
-      <h3>CSC1002 Introduction to Computer Science: Programming Methodology</h3>
-      <p>Enrolled in 2022 Fall Spring | Credits: 1.0 | Grade:
+      <h3>CSC1002 - Computational Laboratory</h3>
+      <p><b>Enrolled in 2022 Spring Term | Credits: 1.0 | Grade:
       <span class="right-content">
         <span class="grades"><span class="grade-icon a">A</span></span>
-      </span></p>
-      <p>Learning Outcomes: Better Python programming with PEP8 standards, hands-on experience of large program development and debugging.</p>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Better Python programming with PEP-8 standards, hands-on experience of large program development and debugging.</p>
     </div>
   </div>
   <script>
