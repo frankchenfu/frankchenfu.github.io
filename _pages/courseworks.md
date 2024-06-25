@@ -102,7 +102,7 @@ redirect_from:
       font-family: Arial, sans-serif;
     }
     .tooltip i {
-      font-size: 16px;
+      font-size: 12px;
     }
     .tooltip:hover .tooltiptext {
       visibility: visible;
