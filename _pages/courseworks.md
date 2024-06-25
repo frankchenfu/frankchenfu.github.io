@@ -69,7 +69,7 @@ redirect_from:
     }
     /* Different background colors for each grade */
     .grade-icon.a { background-color: #4CAF50; } /* Green */
-    .grade-icon.a-minus { background-color: #8BC34A; } /* Light Green */
+    .grade-icon.a-minus { background-color: #90C36A; } /* Light Green */
     .grade-icon.b-plus { background-color: #CDDC39; } /* Lime */
     .grade-icon.b { background-color: #FFEB3B; } /* Yellow */
     .grade-icon.b-minus { background-color: #FFC107; } /* Amber */
@@ -85,7 +85,7 @@ redirect_from:
     }
     .tooltip .tooltiptext {
       visibility: hidden;
-      width: 120px;
+      width: 180px;
       background-color: black;
       color: #fff;
       text-align: center;
@@ -95,9 +95,15 @@ redirect_from:
       z-index: 1;
       bottom: 125%; /* Position the tooltip above the icon */
       left: 50%;
-      margin-left: -60px; /* Center the tooltip */
+      margin-left: -90px; /* Center the tooltip */
       opacity: 0;
       transition: opacity 0.3s;
+      font-size: 11px;
+      font-family: Arial, sans-serif;
+    }
+    .tooltip i {
+      font-size: 12px; /* 调整信息图标的字体大小 */
+      font-family: Arial, sans-serif;
     }
     .tooltip:hover .tooltiptext {
       visibility: visible;
@@ -164,7 +170,7 @@ redirect_from:
       <h3>PED1001 - Physical Education</h3>
       <p><b>Enrolled in 2022 Fall Term | Credits: 1.0 | Grade:
       <span class="right-content">
-        <span class="grades"><span class="grade-icon a">A-</span></span>
+        <span class="grades"><span class="grade-icon a-minus">A-</span></span>
       </span></b></p>
       <p><b>Learning Outcomes</b>: Volleyball skills</p>
     </div>
@@ -178,6 +184,23 @@ redirect_from:
       <p><b>Course Projects</b>: <a href="https://github.com/frankchenfu/CUHKSZ_CSC1002_A1">Chinese Slider Puzzle</a>, <a href="https://github.com/frankchenfu/CUHKSZ_CSC1002_A2">Connect Four</a>, and <a href="https://github.com/frankchenfu/CUHKSZ_CSC1002_A3">Snake</a></p>
     </div>
     <div class="enroll-grade-box mr">
+      <h3>CSC1002 - Computational Laboratory</h3>
+      <p><b>Enrolled in 2023 Spring Term | Credits: 1.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Better Python programming with PEP-8 standards, hands-on experience of large program development and debugging.</p>
+      <p><b>Course Projects</b>: <a href="https://github.com/frankchenfu/CUHKSZ_CSC1002_A1">Chinese Slider Puzzle</a>, <a href="https://github.com/frankchenfu/CUHKSZ_CSC1002_A2">Connect Four</a>, and <a href="https://github.com/frankchenfu/CUHKSZ_CSC1002_A3">Snake</a></p>
+    </div>
+    <div class="enroll-grade-box mr">
+      <h3>CSC3100 - Data Structure</h3>
+      <p><b>Enrolled in 2023 Spring Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Learning data structures, including linear structures (linked list, stack, queue), tree structures (binary trees, heap, BST, balanced trees), graph structures, etc.</p>
+    </div>
+    <div class="enroll-grade-box mr">
       <h3>MAT1002 - Calculus II</h3>
       <p><b>Enrolled in 2023 Spring Term | Credits: 3.0 | Grade:
       <span class="right-content">
@@ -185,19 +208,43 @@ redirect_from:
       </span></b></p>
       <p><b>Learning Outcomes</b>: Knowing the definition and calculation of multivariable limits, derivatives, and integrations.</p>
     </div>
+    <div class="enroll-grade-box mr">
+      <h3>DDA2001 - Introduction to Data Science</h3>
+      <p><b>Enrolled in 2023 Spring Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">PA</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Knowing the areas of data science, including operations researches (OR), optimizations, CV, NLP, robotics, bioinformatics, etc.</p>
+    </div>
+    <div class="enroll-grade-box mr">
+      <h3>PHY1001 - Mechanics</h3>
+      <p><b>Enrolled in 2023 Spring Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">PA</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Knowing the foundamental of physics, especially in basic mechanics such as work and momentum.</p>
+    </div>
     <div class="enroll-grade-box ge">
       <h3>ENG1002 - English for Academic Purposes I (EAP-1)</h3>
       <p><b>Enrolled in 2023 Spring Term | Credits: 3.0 | Grade:
       <span class="right-content">
-        <span class="grades"><span class="grade-icon a">A-</span></span>
+        <span class="grades"><span class="grade-icon a-minus">A-</span></span>
       </span></b></p>
       <p><b>Learning Outcomes</b>: Learning reading and writing academic articles in English.</p>
+    </div>
+    <div class="enroll-grade-box ge">
+      <h3>GFN1000 - In Dialogue with Nature</h3>
+      <p><b>Enrolled in 2023 Spring Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Knowing the history and developments of nature science, from Plato, Euclid to Darwin, Watson and Crick.</p>
     </div>
     <div class="enroll-grade-box ge">
       <h3>PED1002 - Fitness and Health</h3>
       <p><b>Enrolled in 2023 Spring Term | Credits: 1.0 | Grade:
       <span class="right-content">
-        <span class="grades"><span class="grade-icon a">A-</span></span>
+        <span class="grades"><span class="grade-icon a-minus">A-</span></span>
       </span></b></p>
       <p><b>Learning Outcomes</b>: Basketball skills</p>
     </div>
