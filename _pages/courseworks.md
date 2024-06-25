@@ -16,7 +16,7 @@ redirect_from:
   <style>
     .button {
       font-family: 'Comic Sans MS', sans-serif;
-      display: inline-block;
+      display: block;
       padding: 6px 12px;
       font-size: 14px;
       font-weight: bold;
@@ -110,7 +110,6 @@ redirect_from:
     }
     .button-container {
       display: flex;
-      flex-wrap: wrap; /* 允许按钮换行 */
     }
     .button {
       flex: 1 1 auto; /* 按钮自动调整宽度 */
@@ -131,7 +130,8 @@ redirect_from:
     <span class="tooltip">
       <i class="fas fa-info-circle">About grading?</i>
       <span class="tooltiptext">A, A-, ..., D, F stands for grade points 4.0, 3.7, ..., 1.0, 0.0;<br>DI(distinction), PA(pass), FA(failure) will not be counted in GPA;<br>DI may be unavaibale in some of P/F courses.</span>
-    </span><br>
+    </span>
+    <br>
     <button class="button" onclick="filterBoxes('22f')">22 Fall</button>
     <button class="button" onclick="filterBoxes('23s')">23 Spring</button>
     <button class="button" onclick="filterBoxes('23m')">23 Summer</button>
