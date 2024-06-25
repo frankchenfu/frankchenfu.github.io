@@ -16,7 +16,7 @@ redirect_from:
   <style>
     .button {
       font-family: 'Comic Sans MS', sans-serif;
-      display: block;
+      display: inline-block;
       padding: 6px 12px;
       font-size: 14px;
       font-weight: bold;
@@ -109,7 +109,7 @@ redirect_from:
       opacity: 1;
     }
     .button-container {
-      display: flex;
+      display: block;
     }
     .button {
       flex: 1 1 auto; /* 按钮自动调整宽度 */
