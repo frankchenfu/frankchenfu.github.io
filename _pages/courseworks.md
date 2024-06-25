@@ -12,6 +12,7 @@ redirect_from:
 {% include base_path %}
 
 <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
     .button {
       font-family: 'Comic Sans MS', sans-serif;
@@ -77,16 +78,46 @@ redirect_from:
     .grade-icon.c-minus { background-color: #F44336; } /* Red */
     .grade-icon.d { background-color: #E91E63; } /* Pink */
     .grade-icon.f { background-color: #9C27B0; } /* Purple */
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+    }
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      border-radius: 5px;
+      padding: 5px;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%; /* Position the tooltip above the icon */
+      left: 50%;
+      margin-left: -60px; /* Center the tooltip */
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }
   </style>
 </head>
 
 <body>
+  <p>You can find all my enrolled courses in CUHK-Shenzhen here, some course assignments or projects are also available.</p>
   <button class="button" onclick="filterBoxes('all')">Show All</button>
   <button class="button" onclick="filterBoxes('core')">Core Courses</button>
   <button class="button" onclick="filterBoxes('mr')">Major Requires</button>
   <button class="button" onclick="filterBoxes('me')">Major Electives</button>
   <button class="button" onclick="filterBoxes('ge')">General Educations</button>
   <button class="button" onclick="filterBoxes('fe')">Free Electives</button>
+  <span class="tooltip">
+    <i class="fas fa-info-circle">About grading?</i>
+    <span class="tooltiptext">A, A-, ..., D, F stands for grade points 4.0, 3.7, ..., 1.0, 0.0; DI(distinction), PA(pass), FA(failure) will not be counted in GPA, and DI may be unavaibale in some of P/F courses.</span>
+  </span>
   <div id="enroll-grade-container">
     <div class="enroll-grade-box mr">
       <h3>CSC1001 - Introduction to Computer Science: Programming Methodology</h3>
@@ -97,16 +128,89 @@ redirect_from:
       <p><b>Learning Outcomes</b>: Programming with Python, basics of data structures, basics of algorithm designing.</p>
       <p><b>Course Assignments</b>: <a href="https://github.com/frankchenfu/CUHKSZ_CSC1001">https://github.com/frankchenfu/CUHKSZ_CSC1001</a></p>
     </div>
-
-    <div class="enroll-grade-box me">
+    <div class="enroll-grade-box mr">
+      <h3>MAT1001 - Calculus I</h3>
+      <p><b>Enrolled in 2022 Fall Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Knowing the definition and calculation of single variable limits, derivatives, and integrations.</p>
+    </div>
+    <div class="enroll-grade-box mr">
+      <h3>MAT2041 - Linear Algebra and Applications</h3>
+      <p><b>Enrolled in 2022 Fall Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Knowing vector and matrix operations, matrix decompositions, basic linear transformation and linear spaces.</p>
+    </div>
+    <div class="enroll-grade-box ge">
+      <h3>CHI1000 - Chinese</h3>
+      <p><b>Enrolled in 2022 Fall Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Learning and appreciating modern Chinese poetry, prose and novels.</p>
+    </div>
+    <div class="enroll-grade-box ge">
+      <h3>ENG1001 - English Bridge Program (EBP)</h3>
+      <p><b>Enrolled in 2022 Fall Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Learning basic English reading, speaking, and writing ability.</p>
+    </div>
+    <div class="enroll-grade-box ge">
+      <h3>PED1001 - Physical Education</h3>
+      <p><b>Enrolled in 2022 Fall Term | Credits: 1.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A-</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Volleyball skills</p>
+    </div>
+    <div class="enroll-grade-box mr">
       <h3>CSC1002 - Computational Laboratory</h3>
-      <p><b>Enrolled in 2022 Spring Term | Credits: 1.0 | Grade:
+      <p><b>Enrolled in 2023 Spring Term | Credits: 1.0 | Grade:
       <span class="right-content">
         <span class="grades"><span class="grade-icon a">A</span></span>
       </span></b></p>
       <p><b>Learning Outcomes</b>: Better Python programming with PEP-8 standards, hands-on experience of large program development and debugging.</p>
+      <p><b>Course Projects</b>: <a href="https://github.com/frankchenfu/CUHKSZ_CSC1002_A1">Chinese Slider Puzzle</a>, <a href="https://github.com/frankchenfu/CUHKSZ_CSC1002_A2">Connect Four</a>, and <a href="https://github.com/frankchenfu/CUHKSZ_CSC1002_A3">Snake</a></p>
+    </div>
+    <div class="enroll-grade-box mr">
+      <h3>MAT1002 - Calculus II</h3>
+      <p><b>Enrolled in 2023 Spring Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Knowing the definition and calculation of multivariable limits, derivatives, and integrations.</p>
+    </div>
+    <div class="enroll-grade-box ge">
+      <h3>ENG1002 - English for Academic Purposes I (EAP-1)</h3>
+      <p><b>Enrolled in 2023 Spring Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A-</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Learning reading and writing academic articles in English.</p>
+    </div>
+    <div class="enroll-grade-box ge">
+      <h3>PED1002 - Fitness and Health</h3>
+      <p><b>Enrolled in 2023 Spring Term | Credits: 1.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A-</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Basketball skills</p>
+    </div>
+    <div class="enroll-grade-box ge">
+      <h3>ITE1000 - Information Technology</h3>
+      <p><b>Enrolled in 2023 Spring Term | Credits: 1.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">DI</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Basketball skills</p>
     </div>
   </div>
+
   <script>
     function filterBoxes(tag) {
       var boxes = document.querySelectorAll('.enroll-grade-box');
