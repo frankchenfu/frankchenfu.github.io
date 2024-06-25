@@ -323,7 +323,7 @@ redirect_from:
       <p>Remark: Free elective course, originally for math major students.</p>
       <p><b>Learning Outcomes</b>: Gaining more general understanding of vector spaces, learning product/quotient spaces, annihilators, dual spaces, Jordan normal form, characteristic polynomials, essense of determinants, etc.</p>
     </div>
-    <div class="enroll-grade-box 23f mr core">
+    <div class="enroll-grade-box 23f mr">
       <h3>BIO1008 - Chemistry and Life Science</h3>
       <p><b>Enrolled in 2023 Fall Term | Credits: 3.0 | Grade:
       <span class="right-content">
@@ -331,7 +331,7 @@ redirect_from:
       </span></b></p>
       <p><b>Learning Outcomes</b>: Knowing more biochemistry knowledges including organic chemistry, biological features of human body.</p>
     </div>
-    <div class="enroll-grade-box 23f ge core">
+    <div class="enroll-grade-box 23f ge">
       <h3>ENG2001 - English for Academic Purposes II (EAP-2)</h3>
       <p><b>Enrolled in 2023 Fall Term | Credits: 3.0 | Grade:
       <span class="right-content">
