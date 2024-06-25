@@ -102,8 +102,8 @@ redirect_from:
       font-family: Arial, sans-serif;
     }
     .tooltip i {
-      font-size: 12px; /* 调整信息图标的字体大小 */
-      font-family: Arial, sans-serif;
+      font-size: 14px; /* 调整信息图标的字体大小 */
+      font-family: Comic Sans MS, sans-serif;
     }
     .tooltip:hover .tooltiptext {
       visibility: visible;
