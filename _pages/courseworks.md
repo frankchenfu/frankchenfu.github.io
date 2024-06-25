@@ -339,6 +339,63 @@ redirect_from:
       </span></b></p>
       <p><b>Learning Outcomes</b>: Gaining more advanced skills in academic writings; Conducting a mini-research in humanity science area and writing a research paper with presentation.</p>
     </div>
+    <div class="enroll-grade-box 24s mr">
+      <h3>CSC3170 - Database System</h3>
+      <p><b>Enrolled in 2024 Spring Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Knowing data storing structures; Learning normal forms of data representations, data mining with databases; Familiar with SQL programming.</p>
+    </div>
+    <div class="enroll-grade-box 24s mr">
+      <h3>CSC4001 - Software Engineering</h3>
+      <p><b>Enrolled in 2024 Spring Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Knowing testing workflow (UUT, system testing, etc.) and skills (differential testing, metamorphic testing, etc.); Learning dataflow analyses and its usage in software testing.</p>
+    </div>
+    <div class="enroll-grade-box 24s mr">
+      <h3>CSC4001 - Software Engineering</h3>
+      <p><b>Enrolled in 2024 Spring Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Knowing testing workflow (UUT, system testing, etc.) and skills (differential testing, metamorphic testing, etc.); Learning dataflow analyses and its usage in software testing.</p>
+    </div>
+    <div class="enroll-grade-box 24s mr">
+      <h3>ECE2050 - Digital Logic and Systems</h3>
+      <p><b>Enrolled in 2024 Spring Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Knowing basic digital logic, circuit design, and hardware structure design; Learning to use basic electronic devices (flip-flops, registers, etc.).</p>
+    </div>
+    <div class="enroll-grade-box 24s fe">
+      <h3>STA2004 - Mathematical Statistics</h3>
+      <p><b>Enrolled in 2024 Spring Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a-minus">A-</span></span>
+      </span></b></p>
+      <p>Remark: Free elective course, originally for statistics major students.</p>
+      <p><b>Learning Outcomes</b>: Learning the calculation of basic statistics (covariance, etc.), estimators (especially MLE), confidence interval, all sorts of hypothesis testing (parametric and non-parametric).</p>
+    </div>
+    <div class="enroll-grade-box 24s ge">
+      <h3>ENG2002S - English for Science and Engineering</h3>
+      <p><b>Enrolled in 2024 Spring Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a-minus">A-</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Learning to write technical proposals (with presentation); Trying to write cover letters and CVs.</p>
+    </div>
+    <div class="enroll-grade-box 24s ge">
+      <h3>GFH1000 - In Dialogue with Humanity</h3>
+      <p><b>Enrolled in 2024 Spring Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Knowing the history and developments of humanity, from Aristotle to Rousseau.</p>
+    </div>
   </div>
 
   <script>
