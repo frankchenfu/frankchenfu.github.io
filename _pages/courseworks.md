@@ -36,7 +36,7 @@ redirect_from:
       width: 100%;
       border: 2px solid #ccc; /* 边框颜色和粗细 */
       border-radius: 10px; /* 圆角半径 */
-      margin: 10px 0;
+      margin: 15px 0;
       padding: 10px; /* 内边距 */
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       background-color: #f9f9f9;
@@ -108,21 +108,41 @@ redirect_from:
       visibility: visible;
       opacity: 1;
     }
+    .button-container {
+      display: flex;
+      flex-wrap: wrap; /* 允许按钮换行 */
+    }
+    .button {
+      flex: 1 1 auto; /* 按钮自动调整宽度 */
+      margin: 5px; /* 按钮之间的间距 */
+    }
   </style>
 </head>
 
 <body>
   <p>You can find all my enrolled courses in CUHK-Shenzhen here, some course assignments or projects are also available.</p>
-  <button class="button" onclick="filterBoxes('all')">Show All</button>
-  <button class="button" onclick="filterBoxes('core')">Core Courses</button>
-  <button class="button" onclick="filterBoxes('mr')">Major Requires</button>
-  <button class="button" onclick="filterBoxes('me')">Major Electives</button>
-  <button class="button" onclick="filterBoxes('ge')">General Educations</button>
-  <button class="button" onclick="filterBoxes('fe')">Free Electives</button>
-  <span class="tooltip">
-    <i class="fas fa-info-circle">About grading?</i>
-    <span class="tooltiptext">A, A-, ..., D, F stands for grade points 4.0, 3.7, ..., 1.0, 0.0; DI(distinction), PA(pass), FA(failure) will not be counted in GPA, and DI may be unavaibale in some of P/F courses.</span>
-  </span>
+  <div class="button-container">
+    <button class="button" onclick="filterBoxes('all')">Show All</button>
+    <button class="button" onclick="filterBoxes('core')">Core Courses</button>
+    <button class="button" onclick="filterBoxes('mr')">Major Requires</button>
+    <button class="button" onclick="filterBoxes('me')">Major Electives</button>
+    <button class="button" onclick="filterBoxes('ge')">General Educations</button>
+    <button class="button" onclick="filterBoxes('fe')">Free Electives</button>
+    <span class="tooltip">
+      <i class="fas fa-info-circle">About grading?</i>
+      <span class="tooltiptext">A, A-, ..., D, F stands for grade points 4.0, 3.7, ..., 1.0, 0.0; DI(distinction), PA(pass), FA(failure) will not be counted in GPA, and DI may be unavaibale in some of P/F courses.</span>
+    </span><br>
+    <button class="button" onclick="filterBoxes('22f')">22 Fall</button>
+    <button class="button" onclick="filterBoxes('23s')">23 Spring</button>
+    <button class="button" onclick="filterBoxes('23m')">23 Summer</button>
+    <button class="button" onclick="filterBoxes('23f')">23 Fall</button>
+    <button class="button" onclick="filterBoxes('24s')">24 Spring</button>
+    <button class="button" onclick="filterBoxes('24f')">24 Fall</button>
+    <button class="button" onclick="filterBoxes('25s')">25 Spring</button>
+    <button class="button" onclick="filterBoxes('25f')">25 Fall</button>
+    <button class="button" onclick="filterBoxes('26s')">26 Spring</button>
+  </div>
+  
   <div id="enroll-grade-container">
     <div class="enroll-grade-box mr">
       <h3>CSC1001 - Introduction to Computer Science: Programming Methodology</h3>
@@ -141,7 +161,7 @@ redirect_from:
       </span></b></p>
       <p><b>Learning Outcomes</b>: Knowing the definition and calculation of single variable limits, derivatives, and integrations.</p>
     </div>
-    <div class="enroll-grade-box mr">
+    <div class="enroll-grade-box mr core">
       <h3>MAT2041 - Linear Algebra and Applications</h3>
       <p><b>Enrolled in 2022 Fall Term | Credits: 3.0 | Grade:
       <span class="right-content">

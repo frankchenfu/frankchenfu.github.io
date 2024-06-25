@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Fu Chen"
   pronouns         : "he/him"  
-  bio              : "A junior undergraduate student at the Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen), majoring computer science and engineering."
+  bio              : "A junior undergraduate student at the Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen), majoring Computer Science and Engineering."
   location         : "Fujian / Guangdong, China"
   employer         : "CUHK-Shenzhen"
   uri              : # URL
@@ -44,7 +44,7 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "frankchenfu"
-  kaggle           : "frankchenfu" 
+  kaggle           : # Username
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
