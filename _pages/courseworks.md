@@ -208,7 +208,7 @@ redirect_from:
       <span class="right-content">
         <span class="grades"><span class="grade-icon a">A</span></span>
       </span></b></p>
-      <p><b>Learning Outcomes</b>: Learning data structures, including linear structures (linked list, stack, queue), tree structures (binary trees, heap, BST, balanced trees), graph structures, etc.</p>
+      <p><b>Learning Outcomes</b>: Learning data structures, including linear structures (linked list, stack, queue), tree structures (binary trees, heap, BST, balanced trees), graph structures, etc; Learning Java programming.</p>
     </div>
     <div class="enroll-grade-box 23s mr">
       <h3>MAT1002 - Calculus II</h3>
@@ -230,7 +230,7 @@ redirect_from:
       <h3>PHY1001 - Mechanics</h3>
       <p><b>Enrolled in 2023 Spring Term | Credits: 3.0 | Grade:
       <span class="right-content">
-        <span class="grades"><span class="grade-icon a">PA</span></span>
+        <span class="grades"><span class="grade-icon a">A</span></span>
       </span></b></p>
       <p><b>Learning Outcomes</b>: Knowing the foundamental of physics, especially in basic mechanics such as work and momentum.</p>
     </div>
@@ -268,11 +268,76 @@ redirect_from:
     </div>
     <div class="enroll-grade-box 23m me core">
       <h3>MAT3007 - Optimization</h3>
-      <p><b>Enrolled in 2023 Summer Session | Credits: 3.0 | Grade:
+      <p><b>Enrolled in 2023 Summer Special Session | Credits: 3.0 | Grade:
       <span class="right-content">
         <span class="grades"><span class="grade-icon a">A</span></span>
       </span></b></p>
       <p><b>Learning Outcomes</b>: Knowing optimization problems, solving convex optimization, simplex method, KKT conditions, branch-and-bound integer programming.</p>
+    </div>
+    <div class="enroll-grade-box 23f mr">
+      <h3>CSC3001 - Discrete Mathematics</h3>
+      <p><b>Enrolled in 2023 Fall Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Learning logical operations, set theory, combinational mathematics, inductive and deductive methods, graph theory and proofs.</p>
+    </div>
+    <div class="enroll-grade-box 23f mr">
+      <h3>CSC3002 - C/C++ Programming</h3>
+      <p><b>Enrolled in 2023 Fall Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Learning features of C/C++ languages, better understanding and experience of OOP, memory management</p>
+    </div>
+    <div class="enroll-grade-box 23f mr core">
+      <h3>DDA3020 - Machine Learning</h3>
+      <p><b>Enrolled in 2023 Fall Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Knowing theories of machine learning; Learning SVM, regression models, clustering methods, neoron networks and basic CNN, RNN designs, dimension reductions <b>and their methematical derivations in the probabilistic perspective</b>; Gain expeience with packages such as <code>Scikit-Learning</code>, <code>PyTorch</code>, and large dataset preprocessing.</p>
+    </div>
+    <div class="enroll-grade-box 23f fe core">
+      <h3>DDA2081 - Independent Studies I</h3>
+      <p><b>Enrolled in 2023 Fall Term | Credits: 2.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Contribute to a research which is published afterwards.</p>
+    </div>
+    <div class="enroll-grade-box 23f mr core">
+      <h3>STA2003 - Probability</h3>
+      <p><b>Enrolled in 2023 Fall Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Learning the derivation of many probability theories, calculation of pmf/pdf, cdf, generating functions including mgf, multivatiable probabilities and joint distribution, CLT, etc.</p>
+    </div>
+    <div class="enroll-grade-box 23f fe core">
+      <h3>MAT3040 - Advanced Linear Algebra</h3>
+      <p><b>Enrolled in 2023 Fall Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A</span></span>
+      </span></b></p>
+      <p>Remark: Free elective course, originally for math major students.</p>
+      <p><b>Learning Outcomes</b>: Gaining more general understanding of vector spaces, learning product/quotient spaces, annihilators, dual spaces, Jordan normal form, characteristic polynomials, essense of determinants, etc.</p>
+    </div>
+    <div class="enroll-grade-box 23f mr core">
+      <h3>BIO1008 - Chemistry and Life Science</h3>
+      <p><b>Enrolled in 2023 Fall Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a-minus">A-</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Knowing more biochemistry knowledges including organic chemistry, biological features of human body.</p>
+    </div>
+    <div class="enroll-grade-box 23f ge core">
+      <h3>ENG2001 - English for Academic Purposes II (EAP-2)</h3>
+      <p><b>Enrolled in 2023 Fall Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Gaining more advanced skills in academic writings; Conducting a mini-research in humanity science area and writing a research paper with presentation.</p>
     </div>
   </div>
 
