@@ -85,17 +85,17 @@ redirect_from:
     }
     .tooltip .tooltiptext {
       visibility: hidden;
-      width: 180px;
+      width: 220px;
       background-color: black;
       color: #fff;
-      text-align: center;
+      text-align: left;
       border-radius: 5px;
       padding: 5px;
       position: absolute;
       z-index: 1;
       bottom: 125%; /* Position the tooltip above the icon */
       left: 50%;
-      margin-left: -90px; /* Center the tooltip */
+      margin-left: -120px; /* Center the tooltip */
       opacity: 0;
       transition: opacity 0.3s;
       font-size: 11px;
@@ -114,7 +114,7 @@ redirect_from:
     }
     .button {
       flex: 1 1 auto; /* 按钮自动调整宽度 */
-      margin: 5px; /* 按钮之间的间距 */
+      margin: 2px; /* 按钮之间的间距 */
     }
   </style>
 </head>
@@ -123,14 +123,14 @@ redirect_from:
   <p>You can find all my enrolled courses in CUHK-Shenzhen here, some course assignments or projects are also available.</p>
   <div class="button-container">
     <button class="button" onclick="filterBoxes('all')">Show All</button>
-    <button class="button" onclick="filterBoxes('core')">Core Courses</button>
+    <button class="button" onclick="filterBoxes('core')">Starred</button>
     <button class="button" onclick="filterBoxes('mr')">Major Requires</button>
     <button class="button" onclick="filterBoxes('me')">Major Electives</button>
     <button class="button" onclick="filterBoxes('ge')">General Educations</button>
     <button class="button" onclick="filterBoxes('fe')">Free Electives</button>
     <span class="tooltip">
       <i class="fas fa-info-circle">About grading?</i>
-      <span class="tooltiptext">A, A-, ..., D, F stands for grade points 4.0, 3.7, ..., 1.0, 0.0; DI(distinction), PA(pass), FA(failure) will not be counted in GPA, and DI may be unavaibale in some of P/F courses.</span>
+      <span class="tooltiptext">A, A-, ..., D, F stands for grade points 4.0, 3.7, ..., 1.0, 0.0;<br>DI(distinction), PA(pass), FA(failure) will not be counted in GPA;<br>DI may be unavaibale in some of P/F courses.</span>
     </span><br>
     <button class="button" onclick="filterBoxes('22f')">22 Fall</button>
     <button class="button" onclick="filterBoxes('23s')">23 Spring</button>
@@ -144,7 +144,7 @@ redirect_from:
   </div>
   
   <div id="enroll-grade-container">
-    <div class="enroll-grade-box mr">
+    <div class="enroll-grade-box 22f mr">
       <h3>CSC1001 - Introduction to Computer Science: Programming Methodology</h3>
       <p><b>Enrolled in 2022 Fall Term | Credits: 3.0 | Grade:
       <span class="right-content">
@@ -153,7 +153,7 @@ redirect_from:
       <p><b>Learning Outcomes</b>: Programming with Python, basics of data structures, basics of algorithm designing.</p>
       <p><b>Course Assignments</b>: <a href="https://github.com/frankchenfu/CUHKSZ_CSC1001">https://github.com/frankchenfu/CUHKSZ_CSC1001</a></p>
     </div>
-    <div class="enroll-grade-box mr">
+    <div class="enroll-grade-box 22f mr">
       <h3>MAT1001 - Calculus I</h3>
       <p><b>Enrolled in 2022 Fall Term | Credits: 3.0 | Grade:
       <span class="right-content">
@@ -161,7 +161,7 @@ redirect_from:
       </span></b></p>
       <p><b>Learning Outcomes</b>: Knowing the definition and calculation of single variable limits, derivatives, and integrations.</p>
     </div>
-    <div class="enroll-grade-box mr core">
+    <div class="enroll-grade-box 22f mr core">
       <h3>MAT2041 - Linear Algebra and Applications</h3>
       <p><b>Enrolled in 2022 Fall Term | Credits: 3.0 | Grade:
       <span class="right-content">
@@ -169,7 +169,7 @@ redirect_from:
       </span></b></p>
       <p><b>Learning Outcomes</b>: Knowing vector and matrix operations, matrix decompositions, basic linear transformation and linear spaces.</p>
     </div>
-    <div class="enroll-grade-box ge">
+    <div class="enroll-grade-box 22f ge">
       <h3>CHI1000 - Chinese</h3>
       <p><b>Enrolled in 2022 Fall Term | Credits: 3.0 | Grade:
       <span class="right-content">
@@ -177,7 +177,7 @@ redirect_from:
       </span></b></p>
       <p><b>Learning Outcomes</b>: Learning and appreciating modern Chinese poetry, prose and novels.</p>
     </div>
-    <div class="enroll-grade-box ge">
+    <div class="enroll-grade-box 22f ge">
       <h3>ENG1001 - English Bridge Program (EBP)</h3>
       <p><b>Enrolled in 2022 Fall Term | Credits: 3.0 | Grade:
       <span class="right-content">
@@ -185,7 +185,7 @@ redirect_from:
       </span></b></p>
       <p><b>Learning Outcomes</b>: Learning basic English reading, speaking, and writing ability.</p>
     </div>
-    <div class="enroll-grade-box ge">
+    <div class="enroll-grade-box 22f ge">
       <h3>PED1001 - Physical Education</h3>
       <p><b>Enrolled in 2022 Fall Term | Credits: 1.0 | Grade:
       <span class="right-content">
@@ -193,7 +193,7 @@ redirect_from:
       </span></b></p>
       <p><b>Learning Outcomes</b>: Volleyball skills</p>
     </div>
-    <div class="enroll-grade-box mr">
+    <div class="enroll-grade-box 23s mr">
       <h3>CSC1002 - Computational Laboratory</h3>
       <p><b>Enrolled in 2023 Spring Term | Credits: 1.0 | Grade:
       <span class="right-content">
@@ -202,16 +202,7 @@ redirect_from:
       <p><b>Learning Outcomes</b>: Better Python programming with PEP-8 standards, hands-on experience of large program development and debugging.</p>
       <p><b>Course Projects</b>: <a href="https://github.com/frankchenfu/CUHKSZ_CSC1002_A1">Chinese Slider Puzzle</a>, <a href="https://github.com/frankchenfu/CUHKSZ_CSC1002_A2">Connect Four</a>, and <a href="https://github.com/frankchenfu/CUHKSZ_CSC1002_A3">Snake</a></p>
     </div>
-    <div class="enroll-grade-box mr">
-      <h3>CSC1002 - Computational Laboratory</h3>
-      <p><b>Enrolled in 2023 Spring Term | Credits: 1.0 | Grade:
-      <span class="right-content">
-        <span class="grades"><span class="grade-icon a">A</span></span>
-      </span></b></p>
-      <p><b>Learning Outcomes</b>: Better Python programming with PEP-8 standards, hands-on experience of large program development and debugging.</p>
-      <p><b>Course Projects</b>: <a href="https://github.com/frankchenfu/CUHKSZ_CSC1002_A1">Chinese Slider Puzzle</a>, <a href="https://github.com/frankchenfu/CUHKSZ_CSC1002_A2">Connect Four</a>, and <a href="https://github.com/frankchenfu/CUHKSZ_CSC1002_A3">Snake</a></p>
-    </div>
-    <div class="enroll-grade-box mr">
+    <div class="enroll-grade-box 23s mr">
       <h3>CSC3100 - Data Structure</h3>
       <p><b>Enrolled in 2023 Spring Term | Credits: 3.0 | Grade:
       <span class="right-content">
@@ -219,7 +210,7 @@ redirect_from:
       </span></b></p>
       <p><b>Learning Outcomes</b>: Learning data structures, including linear structures (linked list, stack, queue), tree structures (binary trees, heap, BST, balanced trees), graph structures, etc.</p>
     </div>
-    <div class="enroll-grade-box mr">
+    <div class="enroll-grade-box 23s mr">
       <h3>MAT1002 - Calculus II</h3>
       <p><b>Enrolled in 2023 Spring Term | Credits: 3.0 | Grade:
       <span class="right-content">
@@ -227,7 +218,7 @@ redirect_from:
       </span></b></p>
       <p><b>Learning Outcomes</b>: Knowing the definition and calculation of multivariable limits, derivatives, and integrations.</p>
     </div>
-    <div class="enroll-grade-box mr">
+    <div class="enroll-grade-box 23s mr">
       <h3>DDA2001 - Introduction to Data Science</h3>
       <p><b>Enrolled in 2023 Spring Term | Credits: 3.0 | Grade:
       <span class="right-content">
@@ -235,7 +226,7 @@ redirect_from:
       </span></b></p>
       <p><b>Learning Outcomes</b>: Knowing the areas of data science, including operations researches (OR), optimizations, CV, NLP, robotics, bioinformatics, etc.</p>
     </div>
-    <div class="enroll-grade-box mr">
+    <div class="enroll-grade-box 23s mr">
       <h3>PHY1001 - Mechanics</h3>
       <p><b>Enrolled in 2023 Spring Term | Credits: 3.0 | Grade:
       <span class="right-content">
@@ -243,7 +234,7 @@ redirect_from:
       </span></b></p>
       <p><b>Learning Outcomes</b>: Knowing the foundamental of physics, especially in basic mechanics such as work and momentum.</p>
     </div>
-    <div class="enroll-grade-box ge">
+    <div class="enroll-grade-box 23s ge">
       <h3>ENG1002 - English for Academic Purposes I (EAP-1)</h3>
       <p><b>Enrolled in 2023 Spring Term | Credits: 3.0 | Grade:
       <span class="right-content">
@@ -251,7 +242,7 @@ redirect_from:
       </span></b></p>
       <p><b>Learning Outcomes</b>: Learning reading and writing academic articles in English.</p>
     </div>
-    <div class="enroll-grade-box ge">
+    <div class="enroll-grade-box 23s ge">
       <h3>GFN1000 - In Dialogue with Nature</h3>
       <p><b>Enrolled in 2023 Spring Term | Credits: 3.0 | Grade:
       <span class="right-content">
@@ -259,7 +250,7 @@ redirect_from:
       </span></b></p>
       <p><b>Learning Outcomes</b>: Knowing the history and developments of nature science, from Plato, Euclid to Darwin, Watson and Crick.</p>
     </div>
-    <div class="enroll-grade-box ge">
+    <div class="enroll-grade-box 23s ge">
       <h3>PED1002 - Fitness and Health</h3>
       <p><b>Enrolled in 2023 Spring Term | Credits: 1.0 | Grade:
       <span class="right-content">
@@ -267,13 +258,21 @@ redirect_from:
       </span></b></p>
       <p><b>Learning Outcomes</b>: Basketball skills</p>
     </div>
-    <div class="enroll-grade-box ge">
+    <div class="enroll-grade-box 23s ge">
       <h3>ITE1000 - Information Technology</h3>
       <p><b>Enrolled in 2023 Spring Term | Credits: 1.0 | Grade:
       <span class="right-content">
         <span class="grades"><span class="grade-icon a">DI</span></span>
       </span></b></p>
       <p><b>Learning Outcomes</b>: Basketball skills</p>
+    </div>
+    <div class="enroll-grade-box 23m me core">
+      <h3>MAT3007 - Optimization</h3>
+      <p><b>Enrolled in 2023 Summer Session | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Knowing optimization problems, solving convex optimization, simplex method, KKT conditions, branch-and-bound integer programming.</p>
     </div>
   </div>
 
