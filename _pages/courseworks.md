@@ -101,10 +101,10 @@ redirect_from:
       font-size: 11px;
       font-family: Arial, sans-serif;
     }
-    .tooltip i {
-      font-size: 14px; /* 调整信息图标的字体大小 */
+    /*.tooltip i {
+      font-size: 14px;
       font-family: Comic Sans MS, sans-serif;
-    }
+    }*/
     .tooltip:hover .tooltiptext {
       visibility: visible;
       opacity: 1;
