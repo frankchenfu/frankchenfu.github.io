@@ -176,6 +176,7 @@ redirect_from:
         <span class="grades"><span class="grade-icon a">A</span></span>
       </span></b></p>
       <p><b>Learning Outcomes</b>: Learning and appreciating modern Chinese poetry, prose and novels.</p>
+      <p><b>Course Assignments Available</b>: <a href="../files/CHI1000/presentation-slides.pptx">Presentation (Slides)</a> | <a href="../files/CHI1000/term-paper.pdf">Term Paper</a></p>
     </div>
     <div class="enroll-grade-box 22f ge">
       <h3>ENG1001 - English Bridge Program (EBP)</h3>
