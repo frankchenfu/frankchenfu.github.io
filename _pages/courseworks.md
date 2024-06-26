@@ -151,7 +151,7 @@ redirect_from:
         <span class="grades"><span class="grade-icon a">A</span></span>
       </span></b></p>
       <p><b>Learning Outcomes</b>: Programming with Python, basics of data structures, basics of algorithm designing.</p>
-      <p><b>Course Assignments</b>: <a href="https://github.com/frankchenfu/CUHKSZ_CSC1001">https://github.com/frankchenfu/CUHKSZ_CSC1001</a></p>
+      <p><b>Course Assignments Available</b>: <a href="https://github.com/frankchenfu/CUHKSZ_CSC1001">https://github.com/frankchenfu/CUHKSZ_CSC1001</a></p>
     </div>
     <div class="enroll-grade-box 22f mr">
       <h3>MAT1001 - Calculus I</h3>
@@ -184,6 +184,7 @@ redirect_from:
         <span class="grades"><span class="grade-icon a">A</span></span>
       </span></b></p>
       <p><b>Learning Outcomes</b>: Learning basic English reading, speaking, and writing ability.</p>
+      <p><b>Course Assignments Available</b>: <a href="../files/ENG1001/expressive-essay.docx">Expressive Essay</a> | <a href="../files/ENG1001/responsive-essay.docx">Responsive Essay</a> | <a href="../files/ENG1001/presentation-slides.pptx">Presentation (Slides)</a></p>
     </div>
     <div class="enroll-grade-box 22f ge">
       <h3>PED1001 - Physical Education</h3>
@@ -200,7 +201,7 @@ redirect_from:
         <span class="grades"><span class="grade-icon a">A</span></span>
       </span></b></p>
       <p><b>Learning Outcomes</b>: Better Python programming with PEP-8 standards, hands-on experience of large program development and debugging.</p>
-      <p><b>Course Projects</b>: <a href="https://github.com/frankchenfu/CUHKSZ_CSC1002_A1">Chinese Slider Puzzle</a>, <a href="https://github.com/frankchenfu/CUHKSZ_CSC1002_A2">Connect Four</a>, and <a href="https://github.com/frankchenfu/CUHKSZ_CSC1002_A3">Snake</a></p>
+      <p><b>Course Projects Available</b>: <a href="https://github.com/frankchenfu/CUHKSZ_CSC1002_A1">Chinese Slider Puzzle</a> | <a href="https://github.com/frankchenfu/CUHKSZ_CSC1002_A2">Connect Four</a> | <a href="https://github.com/frankchenfu/CUHKSZ_CSC1002_A3">Snake</a></p>
     </div>
     <div class="enroll-grade-box 23s mr">
       <h3>CSC3100 - Data Structure</h3>
@@ -225,6 +226,7 @@ redirect_from:
         <span class="grades"><span class="grade-icon a">PA</span></span>
       </span></b></p>
       <p><b>Learning Outcomes</b>: Knowing the areas of data science, including operations researches (OR), optimizations, CV, NLP, robotics, bioinformatics, etc.</p>
+      <p><b>Course Assignments Available</b>: <a href="../files/DDA2001/presentation_slides.pptx">Presentation (Slides)</a> | <a href="../files/DDA2001/term-paper.pdf">Term Paper</a></p>
     </div>
     <div class="enroll-grade-box 23s mr">
       <h3>PHY1001 - Mechanics</h3>
@@ -241,6 +243,7 @@ redirect_from:
         <span class="grades"><span class="grade-icon a-minus">A-</span></span>
       </span></b></p>
       <p><b>Learning Outcomes</b>: Learning reading and writing academic articles in English.</p>
+      <p><b>Course Assignments Available</b>: <a href="../files/ENG1002/argumentative-essay.docx">Argumentative Essay</a> | <a href="../files/ENG1002/cause-and-effect-essay.docx">Cause & Effect Essay</a> | <a href="../files/ENG1002/presentation-slides.pptx">Presentation (Slides)</a></p>
     </div>
     <div class="enroll-grade-box 23s ge">
       <h3>GFN1000 - In Dialogue with Nature</h3>
@@ -249,6 +252,7 @@ redirect_from:
         <span class="grades"><span class="grade-icon a">A</span></span>
       </span></b></p>
       <p><b>Learning Outcomes</b>: Knowing the history and developments of nature science, from Plato, Euclid to Darwin, Watson and Crick.</p>
+      <p><b>Course Assignments Available</b>: <a href="../files/GFN1000/presentation-draft.docx">Short Presentation (Draft)</a> | <a href="../files/GFN1000/mindmap.pdf">Course Mindmap</a> | <a href="../files/GFN1000/reflective-journal.docx">Reflective Journal</a> | <a href="../files/GFN1000/term-paper.docx">Term Paper</a></p>
     </div>
     <div class="enroll-grade-box 23s ge">
       <h3>PED1002 - Fitness and Health</h3>
@@ -338,6 +342,7 @@ redirect_from:
         <span class="grades"><span class="grade-icon a">A</span></span>
       </span></b></p>
       <p><b>Learning Outcomes</b>: Gaining more advanced skills in academic writings; Conducting a mini-research in humanity science area and writing a research paper with presentation.</p>
+      <p><b>Course Assignments Available</b>: <a href="../files/ENG2001/public-speaking-draft.docx">Public Speaking (Draft)</a> | <a href="../files/ENG2001/research-proposal.docx">Research Proposal</a> | <a href="../files/ENG2001/research-presentation.pptx">Research Paper (Presentation Slides)</a> | <a href="../files/ENG2001/research-paper.docx">Research Paper</a></p>
     </div>
     <div class="enroll-grade-box 24s mr">
       <h3>CSC3170 - Database System</h3>
@@ -346,14 +351,6 @@ redirect_from:
         <span class="grades"><span class="grade-icon a">A</span></span>
       </span></b></p>
       <p><b>Learning Outcomes</b>: Knowing data storing structures; Learning normal forms of data representations, data mining with databases; Familiar with SQL programming.</p>
-    </div>
-    <div class="enroll-grade-box 24s mr">
-      <h3>CSC4001 - Software Engineering</h3>
-      <p><b>Enrolled in 2024 Spring Term | Credits: 3.0 | Grade:
-      <span class="right-content">
-        <span class="grades"><span class="grade-icon a">A</span></span>
-      </span></b></p>
-      <p><b>Learning Outcomes</b>: Knowing testing workflow (UUT, system testing, etc.) and skills (differential testing, metamorphic testing, etc.); Learning dataflow analyses and its usage in software testing.</p>
     </div>
     <div class="enroll-grade-box 24s mr">
       <h3>CSC4001 - Software Engineering</h3>
@@ -387,6 +384,7 @@ redirect_from:
         <span class="grades"><span class="grade-icon a-minus">A-</span></span>
       </span></b></p>
       <p><b>Learning Outcomes</b>: Learning to write technical proposals (with presentation); Trying to write cover letters and CVs.</p>
+      <p><b>Course Assignments Available</b>: <a href="../files/ENG2002S/technical-proposal-slides.pptx">Technical Proposal (Presentation Slides)</a> | <a href="../files/ENG2002S/technical-proposal.docx">Technical Proposal</a> | <a href="../files/ENG2002S/cover-letter-practice.pdf">Cover Letter Practice</a> | <a href="../files/ENG2002S/resume-writing-practice.pdf">CV Practice</a></p>
     </div>
     <div class="enroll-grade-box 24s ge">
       <h3>GFH1000 - In Dialogue with Humanity</h3>
@@ -395,6 +393,7 @@ redirect_from:
         <span class="grades"><span class="grade-icon a">A</span></span>
       </span></b></p>
       <p><b>Learning Outcomes</b>: Knowing the history and developments of humanity, from Aristotle to Rousseau.</p>
+      <p><b>Course Assignments Available</b>: <a href="../files/GFH1000/rj-aristotle.docx">Reflective Journal I - Aristotle</a> | <a href="../files/GFH1000/rj-rousseau.docx">Reflective Journal II - Rousseau</a> | <a href="../files/GFH1000/presentation.pptx">Presentation (Slides)</a> | <a href="../files/GFH1000/term-paper.docx">Term Paper</a></p>
     </div>
   </div>
 
