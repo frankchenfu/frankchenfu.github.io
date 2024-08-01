@@ -302,6 +302,7 @@ redirect_from:
         <span class="grades"><span class="grade-icon a">A</span></span>
       </span></b></p>
       <p><b>Learning Outcomes</b>: Knowing theories of machine learning; Learning SVM, regression models, clustering methods, neoron networks and basic CNN, RNN designs, dimension reductions <b>and their methematical derivations in the probabilistic perspective</b>; Gain expeience with packages such as <code>Scikit-Learning</code>, <code>PyTorch</code>, and large dataset preprocessing.</p>
+      <p><b>Course Assignments Available</b>: <a href="https://github.com/frankchenfu/CUHKSZ_DDA3020">https://github.com/frankchenfu/CUHKSZ_DDA3020</a></p>
     </div>
     <div class="enroll-grade-box 23f fe core">
       <h3>DDA2081 - Independent Studies I</h3>
