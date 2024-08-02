@@ -294,6 +294,7 @@ redirect_from:
         <span class="grades"><span class="grade-icon a">A</span></span>
       </span></b></p>
       <p><b>Learning Outcomes</b>: Learning features of C/C++ languages, better understanding and experience of OOP, memory management</p>
+      <p><b>Course Assignments Available</b>: <a href="https://github.com/frankchenfu/CUHKSZ_CSC3002">https://github.com/frankchenfu/CUHKSZ_CSC3002</a></p>
     </div>
     <div class="enroll-grade-box 23f mr core">
       <h3>DDA3020 - Machine Learning</h3>
@@ -353,6 +354,7 @@ redirect_from:
         <span class="grades"><span class="grade-icon a">A</span></span>
       </span></b></p>
       <p><b>Learning Outcomes</b>: Knowing data storing structures; Learning normal forms of data representations, data mining with databases; Familiar with SQL programming.</p>
+      <p><b>Course Project Available</b>: <a href="https://github.com/qingning-shen/CSC3170--Arknights-Simulator">https://github.com/qingning-shen/CSC3170--Arknights-Simulator</a></p>
     </div>
     <div class="enroll-grade-box 24s mr">
       <h3>CSC4001 - Software Engineering</h3>
@@ -361,6 +363,7 @@ redirect_from:
         <span class="grades"><span class="grade-icon a">A</span></span>
       </span></b></p>
       <p><b>Learning Outcomes</b>: Knowing testing workflow (UUT, system testing, etc.) and skills (differential testing, metamorphic testing, etc.); Learning dataflow analyses and its usage in software testing.</p>
+      <p><b>Course Project Available</b>: <a href="https://github.com/frankchenfu/CUHKSZ_CSC4001">https://github.com/frankchenfu/CUHKSZ_CSC4001</a></p>
     </div>
     <div class="enroll-grade-box 24s mr">
       <h3>ECE2050 - Digital Logic and Systems</h3>
