@@ -400,6 +400,40 @@ redirect_from:
       <p><b>Learning Outcomes</b>: Knowing the history and developments of humanity, from Aristotle to Rousseau.</p>
       <p><b>Course Assignments Available</b>: <a href="../files/GFH1000/rj-aristotle.docx">Reflective Journal I - Aristotle</a> | <a href="../files/GFH1000/rj-rousseau.docx">Reflective Journal II - Rousseau</a> | <a href="../files/GFH1000/presentation.pptx">Presentation (Slides)</a> | <a href="../files/GFH1000/term-paper.docx">Term Paper</a></p>
     </div>
+    <div class="enroll-grade-box 24f mr">
+      <h3>CSC3050 - Computer Architecture</h3>
+      <p><b>Enrolled in 2024 Fall Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Learning the basic design of computer components, including CPU, memory; experiencing programming with assembly language (RISC-V), enhancing RISC-V compiler for RVV extension and cache support.</p>
+      <p><b>Course Assignments Available</b>: To be added...</p>
+    </div>
+    <div class="enroll-grade-box 24f mr core">
+      <h3>CSC6001 - Advanced Algorithm Design</h3>
+      <p><b>Enrolled in 2024 Fall Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A</span></span>
+      </span></b></p>
+      <p>Remark: This is a graduate-level course with strict conditions for undergraduate enrollments.</p>
+      <p><b>Learning Outcomes</b>: Learning the computational theory and algorithm designs, including to dynamic programming, greedy algorithm, tree data structures, string algorithms, graph theory, network flows, etc.</p>
+    </div>
+    <div class="enroll-grade-box 24f me core">
+      <h3>DDA4230 - Reinforcement Learning</h3>
+      <p><b>Enrolled in 2024 Fall Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Learning the theory of reinforcement learning algorithms with hands-on experiments; develop reinforcement learning programs via existing Python packages.</p>
+    </div>
+    <div class="enroll-grade-box 24f me">
+      <h3>STA4001 - Stochastic Process</h3>
+      <p><b>Enrolled in 2024 Fall Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Learning the methods of analyzing stochastic processes from a statistical view, utilizing tools such as (Discrete and Continuous) Markov Chain, Brownian Motion, Poission Process.</p>
+    </div>
   </div>
 
   <script>
