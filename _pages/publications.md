@@ -36,8 +36,13 @@ redirect_from:
 <body>
   <div class="pub-box">
     <h3>Fast-scBatch: Batch Effect Correction Using Neural Network-Driven Distance Matrix Adjustment</h3>
-    <p><b>DOI: </b><a href="https://doi.org/10.1145/3698587.3701383">https://doi.org/10.1145/3698587.3701383</p>
+    <p><b>DOI: </b><a href="https://doi.org/10.1145/3698587.3701383">https://doi.org/10.1145/3698587.3701383</a></p>
     <p><b>Citation: </b>Chen, F., Tian, L., Fei, T., & Yu, T. (2024, November). Fast-scBatch: Batch Effect Correction Using Neural Network-Driven Distance Matrix Adjustment. In Proceedings of the 15th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics (pp. 1-6).</p>
+  </div>
+  <div class="pub-box">
+    <h3>MediHerb: A Multi-Modal Enhanced Framework for Disease Inference via Herbal Knowledge</h3>
+    <p><b>DOI: </b><a href="https://doi.org/10.70401/cbm.2025.0003">https://doi.org/10.70401/cbm.2025.0003</a></p>
+    <p><b>Citation: </b>Liu, X., Chen, F., Pan, J., Ai, C., Guo, F., & Tang, J. (2025). MediHerb: A multi-modal enhanced framework for disease inference via herbal knowledge. <i>Computational Biomedicine</i>, 1, 202509.</p>
   </div>
 </body>
 

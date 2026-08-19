@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Fu Chen's Personal Pages"
+title                    : "Frank Chen's Personal Pages"
 title_separator          : "-"
-name                     : &name "Fu Chen"
+name                     : &name "Frank (Fu) Chen"
 description              : &description "Personal Pages"
 url                      : https://frankchenfu.github.io
 baseurl                  : ""
@@ -22,13 +22,13 @@ repository               : "frankchenfu/frankchenfu.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Fu Chen"
+  name             : "Frank (Fu) Chen"
   pronouns         : "he/him"  
-  bio              : "A junior undergraduate student at the Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen), majoring Computer Science and Engineering."
-  location         : "Fujian / Guangdong, China"
-  employer         : "CUHK-Shenzhen"
+  bio              : "M.S. student in Computational Data Science at CMU; obtained CS Bachelor's degree from CUHK-Shenzhen; interested in AI4Bio and reliable AI agents."
+  location         : "Pittsburgh, PA"
+  employer         : "Carnegie Mellon University"
   uri              : # URL
-  email            : "fuchen@link.cuhk.edu.cn" 
+  email            : "fuc@andrew.cmu.edu"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile

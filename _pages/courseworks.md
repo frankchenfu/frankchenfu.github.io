@@ -407,10 +407,11 @@ redirect_from:
         <span class="grades"><span class="grade-icon a">A</span></span>
       </span></b></p>
       <p><b>Learning Outcomes</b>: Learning the basic design of computer components, including CPU, memory; experiencing programming with assembly language (RISC-V), enhancing RISC-V compiler for RVV extension and cache support.</p>
-      <p><b>Course Assignments Available</b>: To be added...</p>
+      <p><b>Course Assignments Available</b>: <a href="https://github.com/frankchenfu/CUHKSZ_CSC3050_Cache-Simulation">Cache Simulation</a> | <a href="https://github.com/frankchenfu/CUHKSZ_CSC3050_qtrvsim-RVV-Simulation">RISC-V Compiler</a></p>
+      <p><b>Designed Assignment as Teaching Fellow</b>: <a href="https://github.com/frankchenfu/attack">Attack (Cache Configuration Inference)</a></p>
     </div>
     <div class="enroll-grade-box 24f mr core">
-      <h3>CSC6001 - Advanced Algorithm Design</h3>
+      <h3>CSC6001 - Analysis of Algorithms</h3>
       <p><b>Enrolled in 2024 Fall Term | Credits: 3.0 | Grade:
       <span class="right-content">
         <span class="grades"><span class="grade-icon a">A</span></span>
@@ -427,12 +428,64 @@ redirect_from:
       <p><b>Learning Outcomes</b>: Learning the theory of reinforcement learning algorithms with hands-on experiments; develop reinforcement learning programs via existing Python packages.</p>
     </div>
     <div class="enroll-grade-box 24f me">
-      <h3>STA4001 - Stochastic Process</h3>
+      <h3>STA4001 - Stochastic Processes</h3>
       <p><b>Enrolled in 2024 Fall Term | Credits: 3.0 | Grade:
       <span class="right-content">
         <span class="grades"><span class="grade-icon a">A</span></span>
       </span></b></p>
       <p><b>Learning Outcomes</b>: Learning the methods of analyzing stochastic processes from a statistical view, utilizing tools such as (Discrete and Continuous) Markov Chain, Brownian Motion, Poission Process.</p>
+    </div>
+    <div class="enroll-grade-box 25f mr">
+      <h3>CSC3150 - Operating System</h3>
+      <p><b>Enrolled in 2025 Fall Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon b-plus">B+</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Studying operating-system architecture and core components, including processes, memory, file systems, protection, concurrency, and design trade-offs.</p>
+    </div>
+    <div class="enroll-grade-box 25f ge">
+      <h3>GEA2000 - Modern Chinese History and Culture</h3>
+      <p><b>Enrolled in 2025 Fall Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon b">B</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Examining China’s modernization through its history, culture, social practice, and political development.</p>
+      <p><b>Course Materials Available</b>: <a href="../files/GEA2000/Chen Fu, Family History.docx">Term Paper</a></p>
+    </div>
+    <div class="enroll-grade-box 25f ge">
+      <h3>GEC3112 - Law, Society and Family Life in Modern China</h3>
+      <p><b>Enrolled in 2025 Fall Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon b-plus">B+</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Exploring the changing relationships among law, social institutions, and family life in modern China.</p>
+      <p><b>Course Materials Available</b>: <a href="../files/GEC3112/Research Proposal.docx">Research Proposal</a></p>
+    </div>
+    <div class="enroll-grade-box 26s me core">
+      <h3>DDA4210 - Advanced Machine Learning</h3>
+      <p><b>Enrolled in 2026 Spring Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon a">A</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Developing a deeper theoretical and practical understanding of advanced machine-learning methods.</p>
+    </div>
+    <div class="enroll-grade-box 26s ge">
+      <h3>GEB2508 - AI and Society</h3>
+      <p><b>Enrolled in 2026 Spring Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon b-plus">B+</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Examining the societal consequences of AI, including algorithmic labor, automation, bias, and the governance of emerging technologies.</p>
+      <p><b>Course Materials Available</b>: <a href="../files/GEB2508/122090020-TP.docx">Term Paper</a></p>
+    </div>
+    <div class="enroll-grade-box 26s ge">
+      <h3>GED2202 - Philosophy of Religion</h3>
+      <p><b>Enrolled in 2026 Spring Term | Credits: 3.0 | Grade:
+      <span class="right-content">
+        <span class="grades"><span class="grade-icon b-plus">B+</span></span>
+      </span></b></p>
+      <p><b>Learning Outcomes</b>: Examining philosophical approaches to religion, belief, and related questions about meaning, ethics, and human existence.</p>
+      <p><b>Course Materials Available</b>: <a href="../files/GED2202/GED2202_TP.docx">Term Paper</a> | <a href="../files/GED2202/GED2202pre.pptx">Presentation</a></p>
     </div>
   </div>
 
