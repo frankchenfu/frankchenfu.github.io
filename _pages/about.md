@@ -17,4 +17,4 @@ In industry, I have worked through internships at Shenzhen Siku (AI start-up), M
 
 Outside work, I grew up in Fujian and enjoy watching sports games, simulating public transit (or building virtual cities in *Cities: Skylines* if you happen to know it).
 
-Feel free to reach me at [fuc@andrew.cmu.edu](mailto:fuc@andrew.cmu.edu).
+Feel free to reach me at [fuc@andrew.cmu.edu](mailto:fuc@andrew.cmu.edu), or [book an appointment](https://calendar.app.google/GsJSBM3ZSeh18qJu6).
